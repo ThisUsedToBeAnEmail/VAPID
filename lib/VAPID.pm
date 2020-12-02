@@ -1,5 +1,5 @@
 package VAPID;
-use 5.006; use strict; use warnings; our $VERSION = '1.00';
+use 5.006; use strict; use warnings; our $VERSION = '1.01';
 use Crypt::JWT qw(encode_jwt); use Crypt::PK::ECC; use URI;
 use MIME::Base64 qw/encode_base64url decode_base64url/;
 use base 'Import::Export';
@@ -190,7 +190,7 @@ VAPID - Voluntary Application Server Identification
 
 =head1 VERSION
 
-Version 1.00
+Version 1.01
 
 =cut
 
